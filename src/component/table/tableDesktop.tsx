@@ -25,7 +25,6 @@ export default function TableDesktop({
   limit,
   count,
 }: PropsDesktop) {
-  console.log('data', data);
   return (
     <Box sx={{width: '100%'}}>
       <PaperTableHead elevation={1} square>
