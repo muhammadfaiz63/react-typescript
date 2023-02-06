@@ -1,0 +1,4 @@
+const {REACT_APP_API_URL, REACT_APP_NODE_ENV, REACT_APP_USER_KEY} = process.env;
+export const API_URL = REACT_APP_API_URL;
+export const USER_KEY = REACT_APP_USER_KEY;
+export const NODE_ENV = REACT_APP_NODE_ENV;
